@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
   background-color: #b5e2e8;
@@ -14,14 +15,12 @@ body{
 }
 h3{
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text{
   text-align: center;
   padding: 20px;
 }
 .card{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #eeeff0;
   margin: 20px 0;padding-left: 10px;
 
@@ -38,7 +37,6 @@ h3{
   margin-left: 10px;
   padding: 5px;
   border-radius: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .sp{
@@ -60,7 +58,6 @@ h4{
 
 .hlw{
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 10px;
   text-decoration: none;
 
@@ -71,4 +68,73 @@ h4{
 }
 a{
   text-decoration: none;
+}
+
+.formDiv{
+  background-color: #dcdcdd;
+  height: 400px;
+  width: 300px;
+  border-radius: 25px;
+  margin: auto;
+}
+body{
+  background-color: #c5c3c6;
+}
+input{
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  margin: 7px 0 7px 15px;
+  border-radius: 0 10px 10px 10px;
+  outline: none;
+  border: none;
+}
+label{
+  font-size: 20px;
+  margin: 5px;
+}
+button[type="submit"]{
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 50px 0 22px;
+}
+button[type="reset"] {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: #fff;
+  transition: 0.5s;
+}
+.formp{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.formh2{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 40px;
+
+}
+.moreAbout{
+    margin: 15px 0 20px 0;
+  display: inline-block;
+  background-color: #c5c3c6;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.moreAbout:hover{
+  background-color: black;
+  transition: 0.5s;
 }
